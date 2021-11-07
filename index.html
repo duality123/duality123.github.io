@@ -191,7 +191,7 @@
   </ul>
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img src="sejarah.png" width="1366px" height="700px">
+      <img src="sejarah.png" width="1366px" height="650px">
       <div class="carousel-caption">
       	<div class="container"><section class="mb-4">
       		
@@ -204,7 +204,7 @@
       </div>   
     </div>
     <div class="carousel-item">
-      <img src="lokasi-upi-srg.jpg" width="1366px" height="600px">
+      <img src="lokasi-upi-srg.jpg"  width="1366px" height="650px">
       <div class="carousel-caption" style="text-align: left;">
         <h3>Sekilas tentang kampus serang</h3>
         <p>Kehadiran Universitas Pendidikan Indonesia (UPI) di Serang, karena adanya sosok Sekolah Pendidikan Guru (SPG) Negeri Serang, yang berkedudukan di Jl.…</p>
@@ -212,7 +212,7 @@
       </div>   
     </div>
     <div class="carousel-item">
-      <img src="cekfast.jpg" width="1366px" height="500px">
+      <img src="cekfast.jpg"  width="1366px" height="650px">
     </div>
   </div>
   <a class="carousel-control-prev" href="#demo" data-slide="prev">
@@ -369,6 +369,13 @@ $(document).ready(function (){
     	$(".cek").show("slow");
     }
   });
+
+ window.onbeforeunload = function () {
+  window.scrollTo(0, 0);
+}
+
+
+
 
 });
 
