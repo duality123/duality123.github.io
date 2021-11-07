@@ -11,6 +11,11 @@
         margin-top: 30px;
     }
 
+    .mark1{  margin: 0;
+    page-break-inside: avoid;           /* Theoretically FF 20+ */
+    break-inside: avoid-column;         /* Chrome, Safari, IE 11 */
+    display:table;   }
+
 .fa {
   padding: 10px;
   font-size: 30px;
@@ -161,24 +166,24 @@
 </nav>
 
 
-<img src="cekfast.jpg" width="1500" height="300">
+<img src="cekfast.jpg" width="1500" height="700">
 
 <div class="container-fluid text-white " style="background-color: #dc3545; margin-top:0px; padding: 20px">
 
   <h1 >Visi Misi </h1>
 <p> Home / profil / Visi Misi</p></div>
-<div class="container-fluid text-white " style="background: rgba(65, 79, 102, 0.8); margin-top:0px; padding: 50px">
-   <div class="card-columns" style="width: 800px; margin-left: 200px; display: none;" >
-  <div class="card" style="width:250px">
+<div class="container-fluid text-white " style="background: rgba(65, 79, 102, 0.8); margin-top:0px; padding: 50px;">
+   <div class="card-deck" style="width:800px; margin-left: 200px;" >
+  <div class="card mark1" style="width:250px; display: none; ">
     <img class="card-img-bottom" src="https://i2.wp.com/ipse.upi.edu/wp-content/uploads/2017/09/Novi-Sofia.jpg?resize=190%2C192" alt="Card image" style="width:100%">
-    <div class="card-body " style="color: black;">
+    <div class="card-body " style="color: black; ">
       <h4 class="card-title">Nofi Sofia Fitrisari</h4>
       <p class="card-text">Dosen sistem informasi dan pemrograman</p>
       <button class="btn btn-primary">Lihat Bioata lengkap</button> 
     </div>
     </div>
 
-     <div class="card" style="width:250px">
+     <div class="card mark1" style="width:250px; display: none;">
     <img class="card-img-bottom" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTOnSkT3Di-__pFPN4hE2dly3TqO6vgWphgeg&usqp=CAU" alt="Card image" style="width:100%">
     <div class="card-body " style="color: black;">
       <h4 class="card-title">Nofi Sofia Fitrisari</h4>
@@ -188,7 +193,7 @@
     </div>
 
 
-       <div class="card" style="width:250px">
+       <div class="card mark1" style="width:250px; display: none;  ">
     <img class="card-img-bottom" src="https://media-exp1.licdn.com/dms/image/C5103AQGdA3MmTjxVhQ/profile-displayphoto-shrink_200_200/0/1585845980848?e=1639612800&v=beta&t=trWxujMg6OFcESuOFY9SsQCXxCxUfbXTNhogHlLg8gc" alt="Card image" style="width:100%">
     <div class="card-body " style="color: black;">
       <h4 class="card-title">Nofi Sofia Fitrisari</h4>
@@ -196,17 +201,19 @@
          <button class="btn btn-primary">Lihat Bioata lengkap</button>
     </div>
     </div>
+</div> 
 
-     <div class="card" style="width:250px">
+<div class="card-deck" style="width: 800px; margin-left: 200px; margin-top: 20px;" >
+         <div class="card mark2" style="width:250px; display: none;">
     <img class="card-img-bottom" src="data:image/jpeg;base64,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" alt="Card image" style="width:100%">
-    <div class="card-body " style="color: black;">
+         <div class="card-body " style="color: black;">
       <h4 class="card-title">Nofi Sofia Fitrisari</h4>
       <p class="card-text">Dosen sistem informasi dan pemrograman</p>
         <button class="btn btn-primary">Lihat Bioata lengkap</button>
     </div>
     </div>
 
-     <div class="card" style="width:250px">
+      <div class="card mark2" style="width:250px; display: none;">
     <img class="card-img-bottom" src="https://i1.rgstatic.net/ii/profile.image/951233045078025-1603803039688_Q512/Ayang-Rosalia.jpg" alt="Card image" style="width:100%">
     <div class="card-body " style="color: black;">
       <h4 class="card-title">Nofi Sofia Fitrisari</h4>
@@ -215,7 +222,8 @@
     </div>
     </div>
 
-     <div class="card" style="width:250px">
+
+        <div class="card mark2" style="width:250px; display: none;">
     <img class="card-img-bottom" src="https://i1.rgstatic.net/ii/profile.image/544161071472640-1506749517562_Q512/Ishak-Ariawan.jpg" alt="Card image" style="width:100%">
     <div class="card-body " style="color: black;">
       <h4 class="card-title" style="float: left;">Nofi Sofia Fitrisari</h4>
@@ -223,13 +231,7 @@
          <button class="btn btn-primary">Lihat Bioata lengkap</button>
     </div>
     </div>
-
-
-   
-
-</div>
-</div>
-
+ </div>
 </div>
 
 <div class="container-fluid text-white " style="background: rgba(65, 79, 102, 0.8); margin-top:0px; padding: 50px; display: none;">
@@ -314,11 +316,17 @@ $(document).ready(function (){
 $( "button" ).click(function() {
 
   $( ".container-fluid" ).toggle(400,"swing");
-   $("html,body").scrollTop(150);
+   $("html,body").scrollTop(600);
 });
 
-$("img" ).hover(function() {
-  $( ".card-columns" ).show("slow");
+$(window ).scroll(function() {
+        if($(window).scrollTop()>= 500){
+          $(".mark1").show("slow");
+        }
+
+        if($(window).scrollTop()>= 800){
+          $(".mark2").show("slow");
+        }
 });
 });
 
