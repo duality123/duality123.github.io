@@ -51,11 +51,13 @@
 
 
     body{
-    	background-image: url("background123.png");;
+    	background-color:#b4c5de;
     	background-size: cover;
     	 background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;
+  font-family: "Audiowide", sans-serif;
+  font-size: 15px;
 
    ;
 
